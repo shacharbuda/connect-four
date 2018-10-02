@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Connect4</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="startGame()">
+		<h2>Hello!<br/>Welcome to the game Connect Four.<br></h2>
+		<p id="turnMsg">This is player <span id="player">1</span> Turn.</p>
+		<h1 id="resultMsg"></h1>
+		<h1 id="gameOverMsg"></h1>
+		<button id="tryAgainButton" onclick="startOver()"><h1>Start another game!</h1></button>
+		<table id="boardTable" align="center"></table>
+	</body>
+</html>

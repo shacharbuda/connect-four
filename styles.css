@@ -1,0 +1,19 @@
+body
+{
+	font-family:"Comic Sans MS","arial";
+	text-align: center;
+}
+td
+{
+	border: 2px solid black;				
+}
+#turnMsg
+{
+	/*player 1 is first, therefore first msg is red.*/
+	color: red;
+}
+#tryAgainButton
+{
+	visibility: hidden;
+	font-weight: bold;
+}
